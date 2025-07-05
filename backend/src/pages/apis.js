@@ -1,0 +1,8 @@
+export const API_CONFIG = {
+  SUPABASE_URL: import.meta.env.VITE_SUPABASE_URL,
+  SUPABASE_ANON_KEY: import.meta.env.VITE_SUPABASE_ANON_KEY,
+  CLEANVOICE_API_KEY: import.meta.env.VITE_CLEANVOICE_API_KEY,
+  DEEPGRAM_API_KEY: import.meta.env.VITE_DEEPGRAM_API_KEY,
+  MUX_TOKEN_ID: import.meta.env.VITE_MUX_TOKEN_ID,
+  MUX_TOKEN_SECRET: import.meta.env.VITE_MUX_TOKEN_SECRET,
+};
